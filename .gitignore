@@ -1,0 +1,35 @@
+﻿# Build
+bin/
+obj/
+.vs/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+
+# Models
+models/*.h5
+
+# Cache and logs
+*.log
+*.cache
+*.db
+*.sqlite3
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+dataset/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
