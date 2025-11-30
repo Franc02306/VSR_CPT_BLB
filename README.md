@@ -32,23 +32,3 @@ Predicción
 Procesamiento visual
 
 Servidor backend
-
-📂 Estructura del proyecto
-VISOR-COMPUTACIONAL/
-│── app/
-│   ├── app.py                 # Servidor Flask
-│   ├── train_model.py         # Script de entrenamiento del modelo
-│   ├── predict.py             # Realiza la inferencia
-│   ├── gradcam_viz.py         # Generación de Grad-CAM
-│   ├── calibrar_hsv.py        # Calibración de segmentación HSV
-│   └── visor_app.py           # Ejecutor principal para pruebas locales
-│
-│── dataset/
-│   ├── train/                 # Imágenes de entrenamiento
-│   └── valid/                 # Imágenes de validación
-│
-│── models/
-│   └── model_arandano_vgg16.h5 # Modelo entrenado
-│
-│── venv/                      # Entorno virtual (opcional)
-│── .gitignore
