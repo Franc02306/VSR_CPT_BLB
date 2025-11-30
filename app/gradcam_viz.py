@@ -92,7 +92,7 @@ def mostrar_gradcam(ruta_imagen):
     plt.show()
 
 # === PRUEBA ===
-ruta = "../dataset/valid/Blueberry_ExobasidiumLeafSpot/Blueberry-Exobasidium-Leaf-Spot18_jpg.rf.85c2aff5b7eb25216174befac7770fcf.jpg"
+ruta = "../dataset/valid/Blueberry_ExobasidiumLeafSpot/Blueberry-Exobasidium-Leaf-Spot85_jpg.rf.afb85216ee55b8b1d81d4b5a68d058c1.jpg"
 if os.path.exists(ruta):
     mostrar_gradcam(ruta)
 else:
